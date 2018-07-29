@@ -22,11 +22,6 @@ When above use case is valid, define an `IS-A`, `HAS-A` and `IMPLEMENTS` relatio
 - MallardDuck, RubberDuck `IS-A` Duck.
 - MallardDuck and RubberDuck both are composed of behaviors. These behaviors are encapsulated and can be changed at runtime.
 
-- WeatherData is the subject/publisher.
-- All displays subscribe to/observer/listen for changes in state of weather.
-- As soon as weather changes, WeatherData updates all its subscribers/listeners/observers that some state has changed.
-- All observers on being updated of state change, `pull` the data they need from the publisher/subject
-
 ### Running the code
 
 ```
